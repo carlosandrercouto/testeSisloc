@@ -16,17 +16,18 @@ body {
 	background-size: cover;
 	background-position: center;
 }
-	.jumbotron-news .jumbotron-news_title {
+	/*Demonstração de utilização de seletor avançado CSS*/
+	.jumbotron-news *[class$='-news_title'] {
 		color: #ffffff;
 	}
 
-	.jumbotron-news .jumbotron-news_subTitle {
+	.jumbotron-news p[class$='-news_subTitle'] {
 		color: #ffffff;
 		font-size: 1.6rem;
 	}
 
-	.text-box .text-box_p, .text-box .text-box_list {
-		color: #585858;
-		font-size: 1.4rem;
-		font-weight: 300;
-	}
+.text-box .text-box_p, .text-box .text-box_list {
+	color: #585858;
+	font-size: 1.4rem;
+	font-weight: 300;
+}

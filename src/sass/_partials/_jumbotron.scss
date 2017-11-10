@@ -5,12 +5,12 @@
 	background-size: cover;
 	background-position: center;
 
-	.jumbotron-news_title {
+	//Demonstracao seletor avançado CSS
+	*[class$='-news_title'] {
 		color: $mainColorWhite;
-
 	}
 
-	.jumbotron-news_subTitle {
+	p[class$='-news_subTitle'] {
 		color: $mainColorWhite;
 		font-size: 1.6rem;
 	}
