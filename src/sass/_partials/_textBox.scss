@@ -1,0 +1,11 @@
+.text-box {
+	.text-box_p {
+		color: $mainColorBlack;
+		font-size: 1.4rem;
+		font-weight: 300;
+	}
+
+	&_list {
+		@extend .text-box_p;
+	}
+}
