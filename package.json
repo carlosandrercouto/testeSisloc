@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "sass": "node-sass",
-    "preinstall": "mkdirp src/components/bootstrap/ src/components/jQuery src/components/popperJs src/components/fonts/font-awesome",
+	"start": "echo Iniciandp...",
+    "preinstall": "npm install mkdirp && mkdirp src/components/bootstrap/ src/components/jQuery src/components/popperJs src/components/fonts/font-awesome",
     "postinstall": "cp -r node_modules/bootstrap/dist/**/ src/components/bootstrap/ && cp -r node_modules/jQuery/dist/jquery.min.js src/components/jQuery/ && cp -r node_modules/popper.js/dist/umd/popper.min.js src/components/popperJs/ && cp -r node_modules/font-awesome/css src/components/fonts/font-awesome/ && cp -r node_modules/font-awesome/fonts src/components/fonts/font-awesome/",
     "createdist": "cp -r src/index.html dist && cp -r src/components/ dist && cp -r src/css/ dist && cp -r src/images/ dist"
   },
