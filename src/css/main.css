@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400");
+body {
+  font-family: "Source Sans Pro", Helvetica, sans-serif; }
+
+.header-main .header-main_title {
+  font-size: 2.25rem;
+  color: #585858; }
+
+.jumbotron-news {
+  height: 500px;
+  background-image: linear-gradient(to bottom right, rgba(243, 121, 32, 0.3), rgba(0, 80, 142, 0.3)), url("../images/ead_bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+  .jumbotron-news .jumbotron-news_title {
+    color: #ffffff; }
+  .jumbotron-news .jumbotron-news_subTitle {
+    color: #ffffff; }

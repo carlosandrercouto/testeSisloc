@@ -1,0 +1,15 @@
+.jumbotron-news{
+	height: 500px;
+	background-image: linear-gradient(to bottom right, rgba($orangeSisloc, 0.3), rgba($blueSisloc, 0.3)), url("../images/ead_bg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+
+	.jumbotron-news_title {
+		color: $mainColorWhite;
+
+	}
+	.jumbotron-news_subTitle {
+		color: $mainColorWhite;
+	}
+}
