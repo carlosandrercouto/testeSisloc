@@ -26,7 +26,8 @@ body {
 		font-size: 1.6rem;
 	}
 
-.text-box .text-box_p, .text-box .text-box_list {
+.text-box .text-box_p,
+.text-box .text-box_list {
 	color: #585858;
 	font-size: 1.4rem;
 	font-weight: 300;
